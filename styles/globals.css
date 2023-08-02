@@ -85,6 +85,15 @@
   @apply rounded-full border border-black bg-transparent py-1.5 px-5 text-black transition-all hover:bg-black hover:text-white text-center text-sm font-inter flex items-center justify-center;
 }
 
+.cta_btn {
+  @apply font-inter font-bold text-white text-lg px-6 py-2.5 rounded-lg transition-all duration-300 ease-in-out transform;
+  background: linear-gradient(90deg, #6EE7B7 0%, #3FA7D6 100%);
+}
+
+.cta_btn:hover {
+  @apply scale-105 shadow-md;
+}
+
 .head_text {
   @apply mt-5 text-5xl font-extrabold leading-[1.15] text-black sm:text-6xl;
 }
@@ -167,4 +176,9 @@
 
 .flex-between {
   @apply flex justify-between items-center;
+}
+
+.selectedStyle {
+  border: 2px solid #0070f3; /* Change this color to your preference */
+  background-color: rgba(0, 112, 243, 0.1); /* Slight blue background */
 }

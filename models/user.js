@@ -13,6 +13,10 @@ const UserSchema = new Schema({
   },
   image: {
     type: String,
+  },
+  credits: {
+    type: Number,
+    default: '1'
   }
 });
 
